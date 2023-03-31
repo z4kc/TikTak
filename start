@@ -15,6 +15,20 @@ read -p " " yn
 case $yn in
         [sS] ) echo -e "\033[1;31m Starting Program...\033[0m" ;
 
+sleep 1
+
+clear
+
+sleep 2
+
+pkg update && pkg upgrade
+
+pkg install figlet
+
+pip install lolcat
+
+echo 'All Requests Installed!'
+
 sleep 2
 
 clear
