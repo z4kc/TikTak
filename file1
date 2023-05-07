@@ -15,7 +15,7 @@ echo ' '
 read -p "Digite a opção:" yn
 
 case $yn in
-        [1] ) echo -e "\033[1;31m Starting...\033[0m" ;
+        [ ] ) echo -e "\033[1;31m Starting...\033[0m" ;
 
 sleep 2
 
@@ -25,33 +25,6 @@ sleep 2
 
 bash file5
                 break;;
-       [2] ) echo -e "\033[1;31m by ixz\033[0m" ;
 
-sleep 1
-
-clear
-
-sleep 2
-
-figlet 'o mlhr?' | lolcat
-
-sleep 2
-
-clear
-
-sleep 1
-
-bash file1
-
-
-                break;;
-          [3] )  echo 'Até a próxima, bacana!' ;
-                exit;;
-        * ) echo -e " \033[1;33m [!]\033[0m \033[5;30m Wrong Option.\033[0m"
-esac
-
-sleep 1
-
-clear
 
 done
