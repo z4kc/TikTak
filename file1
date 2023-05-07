@@ -12,10 +12,10 @@ echo ' '
 echo -e "\033[1;32m press any key to continue \033[0m "
 echo ' '
 echo ' '
-read -p "Digite a opção:" yn
+read -p "why u so serious?" yn
 
 case $yn in
-        [ ] ) echo -e "\033[1;31m Starting...\033[0m" ;
+        * ) echo -e "\033[1;31m Starting...\033[0m" ;
 
 sleep 2
 
@@ -26,5 +26,6 @@ sleep 2
 bash file5
                 break;;
 
+esac
 
 done
