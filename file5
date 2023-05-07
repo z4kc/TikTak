@@ -2,9 +2,9 @@
 while true; do
 
 clear
-toilet '==========π' | lolcat
+figlet '==========π' | lolcat
  figlet "|                  TikTak                         | " | lolcat
-toilet '==========π' | lolcat
+figlet '==========π' | lolcat
 echo ' '
 echo ' '
 sleep 2
