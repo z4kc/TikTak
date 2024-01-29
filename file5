@@ -47,8 +47,7 @@ clear
 
 sleep 1
 
-termux-open --view https://servicos.receita.fazenda.gov.br/Servicos/CPF/ConsultaSituacao/ConsultaPublica.asp
-
+termux-open --view https://
 sleep 1
 
 bash file5
@@ -61,7 +60,7 @@ clear
 
 sleep 1
 
-termux-open --view https://grabify.link/
+termux-open --view 
 
 
 bash file5
@@ -76,7 +75,7 @@ clear
 
 sleep 1
 
-termux-open --view https://portaldatransparencia.gov.br/pessoa-fisica/busca/lista?pagina=1&tamanhoPagina=10
+termux-open --view
 
 
 bash file5
@@ -91,7 +90,7 @@ clear
 
 sleep 1
 
-termux-open --view https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/cnpjreva_solicitacao.asp
+termux-open --view 
 
 bash file5
 
@@ -104,7 +103,7 @@ clear
 
 sleep 1
 
-termux-open --view https://consultanumero.abrtelecom.com.br/consultanumero/consulta/consultaSituacaoAtualCtg
+termux-open --view 
 
 bash file5
 
